@@ -1,4 +1,4 @@
-aiobotocore @ file:///C:/b/abs_1c1a_vjay2/croot/aiobotocore_1682537737724/work
+aiobotocore==2.5.0
 aiofiles==22.1.0
 aiohappyeyeballs==2.4.6
 aiohttp==3.11.12
