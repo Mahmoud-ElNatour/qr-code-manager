@@ -55,61 +55,17 @@ shellingham==1.5.4
 six==1.17.0
 sniffio==1.3.1
 TBB==0.2
-tblib @ file:///Users/ktietz/demo/mc3/conda-bld/tblib_1629402031467/work
-tenacity @ file:///C:/b/abs_ddkoa9nju6/croot/tenacity_1682972298929/work
+tblib
+tenacity
 termcolor==2.4.0
-terminado @ file:///C:/ci_311/terminado_1678228513830/work
-text-unidecode @ file:///Users/ktietz/demo/mc3/conda-bld/text-unidecode_1629401354553/work
-textdistance @ file:///tmp/build/80754af9/textdistance_1612461398012/work
-threadpoolctl @ file:///Users/ktietz/demo/mc3/conda-bld/threadpoolctl_1629802263681/work
-three-merge @ file:///tmp/build/80754af9/three-merge_1607553261110/work
-tifffile @ file:///C:/b/abs_45o5chuqwt/croot/tifffile_1695107511025/work
-tinycss2 @ file:///C:/ci_311/tinycss2_1676425376744/work
-tldextract @ file:///opt/conda/conda-bld/tldextract_1646638314385/work
-tokenizers @ file:///C:/b/abs_e34f9vyhry/croot/tokenizers_1687191954304/work
-toml @ file:///tmp/build/80754af9/toml_1616166611790/work
-tomlkit @ file:///C:/ci_311/tomlkit_1676425418821/work
-toolz @ file:///C:/ci_311/toolz_1676431406517/work
-tornado @ file:///C:/b/abs_61jhmrrua1/croot/tornado_1690848767317/work
-tqdm @ file:///C:/b/abs_f76j9hg7pv/croot/tqdm_1679561871187/work
-traitlets @ file:///C:/ci_311/traitlets_1676423290727/work
-transformers @ file:///C:/b/abs_375hgbdwge/croot/transformers_1693308365188/work
-Twisted @ file:///C:/b/abs_f1pc_rieoy/croot/twisted_1683796899561/work
-twisted-iocpsupport @ file:///C:/ci_311/twisted-iocpsupport_1676447612160/work
-typer==0.12.5
-typing_extensions==4.12.2
-tzdata @ file:///croot/python-tzdata_1690578112552/work
-uc-micro-py @ file:///C:/ci_311/uc-micro-py_1676457695423/work
-ujson @ file:///C:/ci_311/ujson_1676434714224/work
-Unidecode @ file:///tmp/build/80754af9/unidecode_1614712377438/work
-urllib3 @ file:///C:/b/abs_889_loyqv4/croot/urllib3_1686163174463/work
-uvicorn==0.30.6
-w3lib @ file:///Users/ktietz/demo/mc3/conda-bld/w3lib_1629359764703/work
-watchdog==4.0.2
-watchfiles==0.24.0
-wcwidth @ file:///Users/ktietz/demo/mc3/conda-bld/wcwidth_1629357192024/work
-webencodings==0.5.1
-websocket-client @ file:///C:/ci_311/websocket-client_1676426063281/work
-websockets==13.0.1
-Werkzeug==3.1.3
-whatthepatch @ file:///C:/ci_311/whatthepatch_1678402578113/work
-widgetsnbextension @ file:///C:/b/abs_882k4_4kdf/croot/widgetsnbextension_1679313880295/work
-win-inet-pton @ file:///C:/ci_311/win_inet_pton_1676425458225/work
-wrapt @ file:///C:/ci_311/wrapt_1676432805090/work
-wsproto==1.2.0
-xarray @ file:///C:/b/abs_5bkjiynp4e/croot/xarray_1689041498548/work
-xlwings @ file:///C:/ci_311_rebuilds/xlwings_1679013429160/work
-xmod==1.8.1
-xonsh==0.18.3
-xxhash @ file:///C:/ci_311/python-xxhash_1676446168786/work
-xyzservices @ file:///C:/ci_311/xyzservices_1676434829315/work
-y-py @ file:///C:/b/abs_b7f5go6r0j/croot/y-py_1683662173571/work
-yapf @ file:///tmp/build/80754af9/yapf_1615749224965/work
-yarl==1.18.3
-ypy-websocket @ file:///C:/b/abs_4e65ywlnv8/croot/ypy-websocket_1684172103529/work
-ysql==1.5.0
-zeroconf==0.134.0
-zict @ file:///C:/b/abs_fc7elavmem/croot/zict_1682698759288/work
-zipp @ file:///C:/ci_311/zipp_1676426100491/work
-zope.interface @ file:///C:/ci_311/zope.interface_1676439868776/work
+terminado
+text-unidecode
+textdistance
+threadpoolctl
+three-merge
+tifffile
+tinycss2
+tldextract
+tokenizers
+zope.interface
 zstandard==0.19.0
