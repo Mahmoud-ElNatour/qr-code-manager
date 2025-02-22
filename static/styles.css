@@ -1,0 +1,66 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+    color: #333;
+}
+
+/* Headings */
+h2, h3 {
+    color: #444;
+}
+
+/* Input Fields */
+input {
+    width: 80%;
+    max-width: 400px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Buttons */
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* QR Code Display */
+img#qrImage {
+    display: block;
+    margin: 20px auto;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #ccc;
+    padding: 5px;
+    background-color: white;
+}
+
+/* Input Section */
+input::placeholder {
+    color: #888;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    input {
+        width: 100%;
+    }
+    button {
+        width: 100%;
+    }
+}

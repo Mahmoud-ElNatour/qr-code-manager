@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Manager</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <h2>QR Code Generator</h2>
+    <input type="text" id="linkInput" placeholder="Enter Google Drive Link">
+    <button onclick="generateQR()">Generate QR Code</button>
+    
+    <h3>Generated QR Code:</h3>
+    <img id="qrImage" src="" alt="QR Code will appear here">
+    <p>QR Code ID: <span id="qrId"></span></p>
+
+    <h2>Update QR Code</h2>
+    <input type="text" id="updateQrId" placeholder="Enter QR Code ID">
+    <input type="text" id="newLink" placeholder="Enter New Link">
+    <button onclick="updateQR()">Update QR Code</button>
+
+    <script>
+        function generateQR() {
+            const link = document.getElementById("linkInput").value;
+            fetch('/create_qr', {
+                method: "POST",
+                headers: {"Content-Type": "application/json"},
+                body: JSON.stringify({link: link})
+            })
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById("qrId").textContent = data.qr_id;
+                document.getElementById("qrImage").src = data.qr_code_url;
+            })
+            .catch(error => console.error("Error:", error));
+        }
+
+        function updateQR() {
+            const qrId = document.getElementById("updateQrId").value;
+            const newLink = document.getElementById("newLink").value;
+            fetch(`/update_qr/${qrId}`, {
+                method: "PUT",
+                headers: {"Content-Type": "application/json"},
+                body: JSON.stringify({link: newLink})
+            })
+            .then(response => response.json())
+            .then(data => alert(data.message))
+            .catch(error => console.error("Error:", error));
+        }
+    </script>
+</body>
+</html>
