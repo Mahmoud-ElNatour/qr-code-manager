@@ -94,7 +94,8 @@ def create_qr():
 
     qr_id = str(uuid.uuid4())[:8]  # Generate a short unique ID
     save_qr_code(qr_id, link)
-    return jsonify({"qr_id": qr_id, "qr_code_url": f"http://127.0.0.1:5000/qr/{qr_id}"})
+    base_url = request.host_url.rstrip("/") 
+    return jsonify({"qr_id": qr_id, "qr_code_url": f"{base_url}/qr/{qr_id}"})
 
 
 @app.route("/qr/<qr_id>", methods=["GET"])
