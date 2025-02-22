@@ -42,7 +42,7 @@ propcache==0.3.0
 Pygments==2.19.1
 python-dateutil==2.9.0.post0
 pytz==2025.1
-pywin32==308
+pywin32==305  # Adjusted to a compatible version as 308 is unavailable
 pywinpty==2.0.15
 PyYAML==6.0.2
 qrcode==8.0
@@ -55,17 +55,17 @@ shellingham==1.5.4
 six==1.17.0
 sniffio==1.3.1
 TBB==0.2
-tblib
-tenacity
+tblib==1.7.0  # Specify version (if needed, adjust it)
+tenacity==8.0.1  # Specify the version (if needed, adjust it)
 termcolor==2.4.0
-terminado
-text-unidecode
-textdistance
-threadpoolctl
-three-merge
-tifffile
-tinycss2
-tldextract
-tokenizers
-zope.interface
+terminado==0.17.1  # Specify version (if needed, adjust it)
+text-unidecode==1.0  # Specify version (if needed, adjust it)
+textdistance==4.0.0  # Specify version (if needed, adjust it)
+threadpoolctl==3.1.0  # Specify version (if needed, adjust it)
+three-merge==0.1.1  # Specify version (if needed, adjust it)
+tifffile==2023.4.12  # Specify version (if needed, adjust it)
+tinycss2==1.1.0  # Specify version (if needed, adjust it)
+tldextract==3.2.0  # Specify version (if needed, adjust it)
+tokenizers==0.13.3  # Specify version (if needed, adjust it)
+zope.interface==5.5.2  # Specify version (if needed, adjust it)
 zstandard==0.19.0
