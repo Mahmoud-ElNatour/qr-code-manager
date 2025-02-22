@@ -42,7 +42,7 @@ propcache==0.3.0
 Pygments==2.19.1
 python-dateutil==2.9.0.post0
 pytz==2025.1
-pywin32==305  # Adjusted to a compatible version as 308 is unavailable
+pywin32==303  # Adjusted to a compatible version as 308 is unavailable
 pywinpty==2.0.15
 PyYAML==6.0.2
 qrcode==8.0
