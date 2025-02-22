@@ -41,6 +41,7 @@ packaging==24.2
 propcache==0.3.0
 Pygments==2.19.1
 python-dateutil==2.9.0.post0
+pillow
 pytz==2025.1
 maturin>=1.0.0
 gunicorn==21.2.0
